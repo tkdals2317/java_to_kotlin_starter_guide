@@ -1,4 +1,4 @@
-package lec03
+package com.sangmin.lec03
 
 fun main() {
     val number1 = 4

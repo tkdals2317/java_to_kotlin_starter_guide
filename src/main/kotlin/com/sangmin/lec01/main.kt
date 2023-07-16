@@ -1,4 +1,4 @@
-package lec01
+package com.sangmin.lec01
 
 fun main() {
     // variable의 약자(가변)

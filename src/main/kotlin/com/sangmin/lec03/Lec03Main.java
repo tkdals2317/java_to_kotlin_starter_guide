@@ -1,4 +1,4 @@
-package lec03;
+package com.sangmin.lec03;
 
 public class Lec03Main {
     public static void main(String[] args) {

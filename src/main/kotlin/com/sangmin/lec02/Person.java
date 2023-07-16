@@ -1,4 +1,4 @@
-package lec02;
+package com.sangmin.lec02;
 
 
 public class Person {
