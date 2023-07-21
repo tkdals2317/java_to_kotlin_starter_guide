@@ -1,4 +1,4 @@
-package com.sangmin.lec6;
+package com.sangmin.lec06;
 
 import java.util.Arrays;
 import java.util.List;
