@@ -12,7 +12,7 @@ public class Lec08Main {
 
     /* 2. default parameter */
     public void repeat(String str, int num, boolean useNewLine) {
-        for (int i = 0; i <= num; i++) {
+        for (int i = 1; i <= num; i++) {
             if (useNewLine) {
                 System.out.println(str);
             } else {
