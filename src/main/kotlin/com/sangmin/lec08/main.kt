@@ -1,6 +1,11 @@
 package com.sangmin.lec08
 
 fun main() {
+    callRepeat()
+    // 파라미터 시그니처가 겹치면 이런 실수가 발생한다.
+    printNameAndGender("FEMALE", "이상민")
+    // named argument 장점 : builder를 직접 만들지 않고 builder의 장점을 가지게 된다.
+    printNameAndGender(name = "이상민", gender = "FEMALE")
 }
 
 /* 1. 함수 선언 문법 */
@@ -56,8 +61,9 @@ fun repeat(
 /* 3. named argument */
 fun callRepeat() {
     // 매개변수 이름을 통해 직접 지정, 지정되지 않은 매개변수는 기본값을 사용
-    // => builder를 직접 만들지 않고 builder의 장점을 가지게 된다.
-    repeat("Hello World", useNewLine = false)
+    repeat("Hello World", 5, true)
+    repeat("default parameter")
+    repeat("name argument", useNewLine = false)
 }
 
 /* 4. 같은 타입의 여러 파라미터 받기(가변인자) */
@@ -72,4 +78,10 @@ fun callPrintAll() {
     // 배열을 바로 넣는 대신 스프레드 연산자(*)를 붙여주어야 한다.
     printAll(*array)
     printAll("A", "B", "C")
+}
+
+
+fun printNameAndGender(name: String, gender: String) {
+    println(name)
+    println(gender)
 }
