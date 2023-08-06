@@ -28,9 +28,9 @@ class Person(
     //    get() = field.uppercase() // filed는 backing filed로 무한루프를 방지하기 위한 예약어, 자기 자신을 가리킨다.
     // custom getter에서 backing field를 쓰는 경우가 드물다.
     // 아래와 같이 사용하면 됨
-    fun getUppercaseName(): String {
-        return this.name.uppercase()
-    }
+    //fun getUppercaseName(): String {
+    //    return this.name.uppercase()
+    //}
 
     val uppercaseName: String get() = this.name.uppercase()
 
