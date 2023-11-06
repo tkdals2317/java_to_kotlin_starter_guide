@@ -1,4 +1,4 @@
-package com.sangmin.lec10
+package com.sangmin.lec10.kotlin
 
 open class Base(
     open val number: Int = 100
