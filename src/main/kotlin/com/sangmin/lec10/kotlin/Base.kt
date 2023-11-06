@@ -17,9 +17,11 @@ class Derived(
 ) : Base(number) {
     init {
         println("Derived Class")
+        println(number)
     }
 }
 
 fun main() {
     val derived = Derived(300)
+    // 출력 결과 : Base Class 0 Derived Class가 호출된다.
 }

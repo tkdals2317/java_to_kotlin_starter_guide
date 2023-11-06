@@ -12,13 +12,14 @@ class Penguin(
 
     override val legCount: Int
         get() = super.legCount + this.wingCount
+    override val swimAbility: Int
+        get() = 6
 
     override fun act() {
+        // super<타입>.함수 로 인터페이스의 함수를 호출한다.
         super<Swimable>.act()
         super<Flyable>.act()
     }
 
-    override val swimAbility: Int
-        get() = 6
 
 }
