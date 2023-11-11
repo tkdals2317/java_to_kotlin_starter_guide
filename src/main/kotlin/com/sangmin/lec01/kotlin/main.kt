@@ -1,4 +1,6 @@
-package com.sangmin.lec01
+package com.sangmin.lec01.kotlin
+
+import com.sangmin.lec01.java.Person
 
 fun main() {
     // variable의 약자(가변)
