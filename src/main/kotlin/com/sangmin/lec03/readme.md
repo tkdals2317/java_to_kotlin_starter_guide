@@ -15,10 +15,12 @@
 ![img_1.png](img_1.png)  
 
 ### Java와 다른 내용
+![img_2.png](img_2.png)
 - Java는 기본 타입 간의 변환은 암시적으로 이루어질 수 있다.  
-![img_2.png](img_2.png)  
+
+![img_3.png](img_3.png)  
 - Kotlin은 기본 타입간의 변환은 명시적으로 이루어져야 한다.  
-![img_3.png](img_3.png)
+
   - to변환타입()을 사용해야 한다.
 
 ## 2. 타입 캐스팅
@@ -38,15 +40,17 @@
 
 ### is!
 ![img_6.png](img_6.png)  
-![img_8.png](img_8.png)  
-- instanceof의 반대 개념
+- instanceof의 반대 개념  
 
+![img_8.png](img_8.png)
 ### as
-- as 로 바로 타입 캐스팅이 가능  
 ![img_7.png](img_7.png)  
-![img_9.png](img_9.png)   
+- as 로 바로 타입 캐스팅이 가능  
 
+![img_9.png](img_9.png)   
+![img_18.png](img_18.png)  
 - as?를 사용하면 null이거나 타입이 아니면 null을 반환  
+
 ![img_10.png](img_10.png)
 
 ## 3. Kotlin의 3가지 특이한 타입
