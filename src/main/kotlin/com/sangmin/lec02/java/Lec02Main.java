@@ -1,4 +1,4 @@
-package com.sangmin.lec02;
+package com.sangmin.lec02.java;
 
 public class Lec02Main {
     public static void main(String[] args) {
